@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    let bookings = document.getElementsByClassName("booking-form")
+    /*let bookings = document.getElementsByClassName("booking-form")
      
     bookings.addEventListener("submit", function(event){
         event.preventDefault();
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       window.open(whatsappUrl, `--blank`);
 
-    });
+    });*/
 
     const bookingForm = document.getElementById('bookingForm');
     if (bookingForm) {
@@ -144,5 +144,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (currentYearSpan) {
         currentYearSpan.textContent = new Date().getFullYear();
     }
+
 
 }); // End DOMContentLoaded
